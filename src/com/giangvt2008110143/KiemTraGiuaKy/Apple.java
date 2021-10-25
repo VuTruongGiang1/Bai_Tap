@@ -3,7 +3,6 @@ package com.giangvt2008110143.KiemTraGiuaKy;
 public class Apple {
     int ma, khoiLuong;
     String mauSac = "Vàng, Xanh, Đỏ";
-    public Object mau;
 
     public Apple(int m, int k, String p){
         ma = m;
@@ -23,7 +22,9 @@ public class Apple {
         System.out.println("Màu sắc: " + mauSac);
     }
 
-    public void Constructor(){}
+    public void Constructor(){
+
+    }
 
     public void add(int ma2, int khoiLuong2, String mauSac2) {
     }
