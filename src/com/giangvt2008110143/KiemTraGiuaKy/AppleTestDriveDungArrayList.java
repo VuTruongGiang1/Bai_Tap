@@ -43,7 +43,12 @@ public class AppleTestDriveDungArrayList {
     }
 
     static void tim(){
-
+        System.out.print("nhập màu táo muốn tìm: ");
+       for(Apple apple : list){
+           if(scanner.nextLine().equals(apple.mau)){
+               apple.inThongTin();
+           }
+       }
     }
 
     static void inDanhSach(){

@@ -3,6 +3,7 @@ package com.giangvt2008110143.KiemTraGiuaKy;
 public class Apple {
     int ma, khoiLuong;
     String mauSac = "Vàng, Xanh, Đỏ";
+    public Object mau;
 
     public Apple(int m, int k, String p){
         ma = m;
@@ -13,9 +14,7 @@ public class Apple {
     public Apple(){}
 
     public void nhap(){
-        System.out.print("Nhập vào mã của Apple: " );
-        System.out.print("Nhập vào khối lượng của Apple: " );
-        System.out.println("Nhập vào màu sắc của Apple: " );
+        System.out.print("Nhập vào mã của Apple: " +  " "+ "Nhập vào khối lượng của Apple: "+ " " + "Nhập vào màu sắc của Apple: " + mauSac);
     }
 
     public void inThongTin(){

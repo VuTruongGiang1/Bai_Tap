@@ -7,7 +7,9 @@ public class KhoTao {
         tao = t;
     }
 
+    
+
     void inSoTao(){
-        
+        System.out.println("Số táo có trong kho: " + tao);
     }
 }

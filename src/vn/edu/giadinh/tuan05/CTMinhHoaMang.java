@@ -24,7 +24,7 @@ public class CTMinhHoaMang {
 
         List bienTCArrayList = new ArrayList();
 
-        bienTCArrayList.add(new student("Tèo", 18));
+        bienTCArrayList.add( new student("Tèo", 18));
 
         //lấy 1 phần tử từ List
         student student = (student)bienTCArrayList.get(0);
