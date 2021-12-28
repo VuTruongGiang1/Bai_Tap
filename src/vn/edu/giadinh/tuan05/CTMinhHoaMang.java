@@ -16,7 +16,7 @@ public class CTMinhHoaMang {
         a.add(2.5);
 
         Dog dog = (Dog)a.get(2);
-        System.out.println("Dog name: " +dog.name + "color" + dog.color);
+        //System.out.println("Dog name: " +dog.name + "color" + dog.color);
         //Integer x = (Integer)a.get(2);
 
         a.add(1,5);
@@ -24,7 +24,7 @@ public class CTMinhHoaMang {
 
         List bienTCArrayList = new ArrayList();
 
-        bienTCArrayList.add( new student("Tèo", 18));
+        //bienTCArrayList.add( new student("Tèo", 18));
 
         //lấy 1 phần tử từ List
         student student = (student)bienTCArrayList.get(0);
